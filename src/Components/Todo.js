@@ -47,7 +47,7 @@ function Todo({ text }) {
             className="modal__input"
             style={{
               marginRight: "0.5rem",
-              height: "31.5px",
+              height: "30.5px",
               borderRadius: 6,
               marginBottom: "0.75rem",
               width: "40%",
