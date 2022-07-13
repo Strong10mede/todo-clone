@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="app">
       <h1>Hello Clever Programmer 🚀 </h1>
-      <FormControl>
+      <FormControl className="form">
         <InputLabel> ✅ Write a Todo </InputLabel>
         <Input
           value={input}
@@ -45,6 +45,7 @@ function App() {
         />
       </FormControl>
       <Button
+        className="button"
         disabled={!input}
         variant="contained"
         type="submit"

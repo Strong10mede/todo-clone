@@ -1,3 +1,45 @@
 .todo__list {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -2rem;
+  margin-right: 1%;
+}
+
+.todo__list li {
+  margin-left: -2rem;
+}
+
+.modal__div {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.modal__input {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 650px) {
+  .modal__div {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .modal__input {
+    width: 75% !important;
+    margin-right: 0 !important;
+  }
+  .modal__button {
+    width: 75% !important;
+    margin-left: 0 !important;
+  }
 }
